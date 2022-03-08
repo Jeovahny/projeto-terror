@@ -36,6 +36,16 @@ header{
 
 }
 
+#imgcabeça {
+    width: 70%;
+    border: none;
+    transform: translate(0%);
+
+    
+    
+ 
+}
+
 header > P {line-height: 3em;
     text-align: center;
     text-shadow: 1px 1px 1px black;
