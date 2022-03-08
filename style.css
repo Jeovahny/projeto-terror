@@ -1,0 +1,181 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Imprima&display=swap');
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+html, body {
+    background-image: radial-gradient( #A0C3D9, rgba(187, 183, 183, 0.671));
+    background-attachment: fixed;
+
+}
+
+header > h1 { 
+    font-family: Swamp Death,  Arial, Helvetica, sans-serif;
+    font-weight:normal;
+    font-size:2em;
+    color: #F2B705;
+    text-shadow: 2px 2px 5px black;
+
+}
+
+header{
+    background-image: linear-gradient( to bottom, #0388A6, #024959);
+    text-align: center;
+    color: rgba(255, 255, 255, 0.637);
+    padding-top: 30PX;
+    
+
+}
+
+header > P {line-height: 3em;
+    text-align: center;
+    text-shadow: 1px 1px 1px black;
+    font-size: large;
+    font-weight: bold;
+    
+
+}
+
+header > nav {
+margin-left: 25px;
+
+
+}
+
+button {
+    background-color:#F2B705;
+    box-shadow: 2px 2px 5px  black);
+}
+ 
+nav > button >a {
+     font-weight: bold;
+     text-decoration: none;
+     color: rgb(27, 27, 116);
+
+
+ }
+
+ nav> button > a:active {
+     color: orangered
+ }
+
+ nav > button:hover { 
+     background-color: yellow;
+     
+   
+
+
+ }
+
+main { 
+    font-family: 'Imprima', sem serifa, 'Franklin Gothic Medium', 'Arial Narrow';
+    font-size: 1.2em;
+    text-align: justify;
+    margin: 30px;
+    line-height: 2em;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+
+
+
+h2 {
+    font-family: 'Creepster', cursiva, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #F2B705;
+    font-weight: lighter;
+    font-size: xx-large ;
+    margin: 20px;
+    text-shadow: 2px 2px 5px #024959;
+    
+    
+
+
+}
+
+header > nav {
+    text-align: initial;
+    line-height: 2em;
+   
+   
+}
+section {
+    text-align: justify;
+    font-family: 'Imprima', sem serifa, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: normal;
+    font-size: 1.2em;
+    margin: 30px;
+    list-style-position: inside;
+    line-height: 2em;
+}
+ 
+
+
+    
+img{
+    width:90%;
+    transform: translate(5%);
+    border-radius: 10px;
+    border: solid;
+    border-color: #BF7E06;
+    
+ }
+
+ img#caixaboneco{
+     width: 90%;
+     transform: translate(5%);
+     border-radius: 10px;
+     border: solid;
+     border-color: #BF7E06;
+ 
+
+
+ }
+
+ img#gif1 {
+     width:40%;
+     transform: translate(70%);
+
+
+ }
+
+ footer {
+     background-image: linear-gradient( to right, #024959, #0388A6);
+     color:#A0C3D9;
+     margin-top: 30px;
+     text-align: center;
+     padding: 10px
+ }
+ 
+ footer > a { 
+     text-decoration: none;
+     color: white;
+     
+}
+
+ footer > a:hover {
+     background-color: #024959;
+ }
+
+
+
+
+
+    
+
+
+
