@@ -92,12 +92,10 @@ main {
     text-align: justify;
     margin: 30px;
     line-height: 2em;
+    text-indent: 2em;
 
 }
 
-a {
-    text-decoration: none;
-}
 
 
 
